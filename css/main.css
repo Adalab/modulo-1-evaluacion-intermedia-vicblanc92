@@ -28,6 +28,9 @@ li {
   display: flex;
   flex-direction: row;
 }
+.link {
+  color: #4a4a4a;
+}
 
 .logo {
   width: 155px;
