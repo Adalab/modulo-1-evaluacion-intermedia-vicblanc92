@@ -1,0 +1,29 @@
+.container {
+  background-color: #3cdbc0;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 13px;
+}
+
+li {
+  width: 100%;
+  margin-top: 10px;
+  margin: 20px;
+}
+
+.list {
+  color: #4a4a4a;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  width: 155px;
+  margin-top: 10px;
+}
