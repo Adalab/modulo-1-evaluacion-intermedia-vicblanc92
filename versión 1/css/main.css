@@ -17,10 +17,10 @@ h1 {
 
 li {
   width: 100%;
-  margin-top: 10px;
-  margin: 20px;
   font-size: 16px;
   text-transform: uppercase;
+  margin-bottom: 13px;
+  margin-top: 10px;
 }
 
 .list {
@@ -28,9 +28,12 @@ li {
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  margin: 10px;
 }
 .link {
   color: #4a4a4a;
+  text-decoration: none;
+  padding: 10px;
 }
 
 .logo {
@@ -58,15 +61,20 @@ li {
 
 @media all and (min-width: 768px) {
   .header .nav {
-    box-sizing: border-box;
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    margin: 20px, 0px, 20px, 30px;
   }
 
   .li {
-    font-size: 16px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px, 30px, 20px;
   }
 
   .text {
